@@ -1,0 +1,28 @@
+.container{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.pic-container{
+    width:900px;
+}
+.but-group{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.but{
+    width: 15px;
+    height: 15px;
+    border-radius: 7px;
+    background-color: gray;
+    color:white;
+    z-index: 9999;
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    bottom: 0px;
+
+}
